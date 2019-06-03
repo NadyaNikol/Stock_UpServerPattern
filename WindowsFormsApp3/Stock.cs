@@ -11,23 +11,23 @@ namespace WindowsFormsApp3
 
         public double BTCCource { get; set; }
 
-        List<IOBServer> obServers = new List<IOBServer>();
+        List<IObServer> obServers = new List<IObServer>();
 
 
-        public void AddObserable(IOBServer observer)
+        public void AddObserable(IObServer observer)
         {
             obServers.Add(observer);
         }
 
         public void Notify()
         {
-            foreach (IOBServer observer in obServers)
+            foreach (IObServer observer in obServers)
             {
                 observer.Update(this);
             }
         }
 
-        public void RemoveObserable(IOBServer observer)
+        public void RemoveObserable(IObServer observer)
         {
             obServers.Remove(observer);
         }

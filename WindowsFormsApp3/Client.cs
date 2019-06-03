@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class Client : IOBServer
+    public class Client : IObServer
     {
         public double USD { get; set; }
         public double BTC { get; set; }
@@ -16,9 +16,9 @@ namespace WindowsFormsApp3
         public double SumForSell{ get; set; }
         public string Login{ get; set; }
 
-        public void Update(IMyobserable obseable)
+        public void Update(IMyobserable obserable)
         {
-            Stock stock = obseable as Stock;
+            Stock stock = obserable as Stock;
             if (stock.BTCCource <= this.CourceForBuy)
             {
                 if (this.SumForBuy*stock.BTCCource <this.USD)

@@ -8,3 +8,13 @@ C:\Users\PKO\Documents\Visual Studio 2017\Projects\WindowsFormsApp3\WindowsForms
 C:\Users\PKO\Documents\Visual Studio 2017\Projects\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
 C:\Users\PKO\Documents\Visual Studio 2017\Projects\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 C:\Users\PKO\Documents\Visual Studio 2017\Projects\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Nadya\Desktop\Новая папка\Stock_UpServerPattern\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb

@@ -52,114 +52,127 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(22, 35);
+            this.comboBox1.Location = new System.Drawing.Point(33, 54);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(180, 28);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(22, 96);
+            this.textBoxName.Location = new System.Drawing.Point(33, 148);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(121, 20);
+            this.textBoxName.Size = new System.Drawing.Size(180, 26);
             this.textBoxName.TabIndex = 1;
             // 
             // textboxCourceForSell
             // 
-            this.textboxCourceForSell.Location = new System.Drawing.Point(25, 228);
+            this.textboxCourceForSell.Location = new System.Drawing.Point(38, 351);
+            this.textboxCourceForSell.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textboxCourceForSell.Name = "textboxCourceForSell";
-            this.textboxCourceForSell.Size = new System.Drawing.Size(121, 20);
+            this.textboxCourceForSell.Size = new System.Drawing.Size(180, 26);
             this.textboxCourceForSell.TabIndex = 2;
             // 
             // textBoxSummForSell
             // 
-            this.textBoxSummForSell.Location = new System.Drawing.Point(244, 228);
+            this.textBoxSummForSell.Location = new System.Drawing.Point(366, 351);
+            this.textBoxSummForSell.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxSummForSell.Name = "textBoxSummForSell";
-            this.textBoxSummForSell.Size = new System.Drawing.Size(121, 20);
+            this.textBoxSummForSell.Size = new System.Drawing.Size(180, 26);
             this.textBoxSummForSell.TabIndex = 3;
             // 
             // textBoxUSD
             // 
-            this.textBoxUSD.Location = new System.Drawing.Point(432, 96);
+            this.textBoxUSD.Location = new System.Drawing.Point(648, 148);
+            this.textBoxUSD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxUSD.Name = "textBoxUSD";
-            this.textBoxUSD.Size = new System.Drawing.Size(121, 20);
+            this.textBoxUSD.Size = new System.Drawing.Size(180, 26);
             this.textBoxUSD.TabIndex = 4;
             // 
             // textboxCourceForBuy
             // 
-            this.textboxCourceForBuy.Location = new System.Drawing.Point(22, 159);
+            this.textboxCourceForBuy.Location = new System.Drawing.Point(33, 245);
+            this.textboxCourceForBuy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textboxCourceForBuy.Name = "textboxCourceForBuy";
-            this.textboxCourceForBuy.Size = new System.Drawing.Size(121, 20);
+            this.textboxCourceForBuy.Size = new System.Drawing.Size(180, 26);
             this.textboxCourceForBuy.TabIndex = 5;
             // 
             // textBoxSummForBuy
             // 
-            this.textBoxSummForBuy.Location = new System.Drawing.Point(244, 159);
+            this.textBoxSummForBuy.Location = new System.Drawing.Point(366, 245);
+            this.textBoxSummForBuy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxSummForBuy.Name = "textBoxSummForBuy";
-            this.textBoxSummForBuy.Size = new System.Drawing.Size(121, 20);
+            this.textBoxSummForBuy.Size = new System.Drawing.Size(180, 26);
             this.textBoxSummForBuy.TabIndex = 6;
             // 
             // textBoxBTC
             // 
-            this.textBoxBTC.Location = new System.Drawing.Point(244, 96);
+            this.textBoxBTC.Location = new System.Drawing.Point(366, 148);
+            this.textBoxBTC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxBTC.Name = "textBoxBTC";
-            this.textBoxBTC.Size = new System.Drawing.Size(121, 20);
+            this.textBoxBTC.Size = new System.Drawing.Size(180, 26);
             this.textBoxBTC.TabIndex = 7;
             // 
             // labelNAme
             // 
             this.labelNAme.AutoSize = true;
             this.labelNAme.BackColor = System.Drawing.Color.Transparent;
-            this.labelNAme.Location = new System.Drawing.Point(22, 77);
+            this.labelNAme.Location = new System.Drawing.Point(33, 118);
+            this.labelNAme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNAme.Name = "labelNAme";
-            this.labelNAme.Size = new System.Drawing.Size(35, 13);
+            this.labelNAme.Size = new System.Drawing.Size(51, 20);
             this.labelNAme.TabIndex = 8;
             this.labelNAme.Text = "Name";
             // 
             // labelCourceForSell
             // 
             this.labelCourceForSell.AutoSize = true;
-            this.labelCourceForSell.Location = new System.Drawing.Point(25, 212);
+            this.labelCourceForSell.Location = new System.Drawing.Point(38, 326);
+            this.labelCourceForSell.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCourceForSell.Name = "labelCourceForSell";
-            this.labelCourceForSell.Size = new System.Drawing.Size(99, 13);
+            this.labelCourceForSell.Size = new System.Drawing.Size(148, 20);
             this.labelCourceForSell.TabIndex = 9;
             this.labelCourceForSell.Text = "Курс для продажи";
             // 
             // labelSummForBuy
             // 
             this.labelSummForBuy.AutoSize = true;
-            this.labelSummForBuy.Location = new System.Drawing.Point(241, 143);
+            this.labelSummForBuy.Location = new System.Drawing.Point(362, 220);
+            this.labelSummForBuy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSummForBuy.Name = "labelSummForBuy";
-            this.labelSummForBuy.Size = new System.Drawing.Size(106, 13);
+            this.labelSummForBuy.Size = new System.Drawing.Size(155, 20);
             this.labelSummForBuy.TabIndex = 10;
             this.labelSummForBuy.Text = "Сумма для покупки";
             // 
             // labelUSD
             // 
             this.labelUSD.AutoSize = true;
-            this.labelUSD.Location = new System.Drawing.Point(429, 80);
+            this.labelUSD.Location = new System.Drawing.Point(644, 123);
+            this.labelUSD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelUSD.Name = "labelUSD";
-            this.labelUSD.Size = new System.Drawing.Size(30, 13);
+            this.labelUSD.Size = new System.Drawing.Size(44, 20);
             this.labelUSD.TabIndex = 11;
             this.labelUSD.Text = "USD";
             // 
             // labelCourceForBuy
             // 
             this.labelCourceForBuy.AutoSize = true;
-            this.labelCourceForBuy.Location = new System.Drawing.Point(19, 143);
+            this.labelCourceForBuy.Location = new System.Drawing.Point(28, 220);
+            this.labelCourceForBuy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCourceForBuy.Name = "labelCourceForBuy";
-            this.labelCourceForBuy.Size = new System.Drawing.Size(96, 13);
+            this.labelCourceForBuy.Size = new System.Drawing.Size(140, 20);
             this.labelCourceForBuy.TabIndex = 12;
             this.labelCourceForBuy.Text = "Курс для покупки";
             // 
             // labelSummForSell
             // 
             this.labelSummForSell.AutoSize = true;
-            this.labelSummForSell.Location = new System.Drawing.Point(244, 212);
+            this.labelSummForSell.Location = new System.Drawing.Point(366, 326);
+            this.labelSummForSell.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSummForSell.Name = "labelSummForSell";
-            this.labelSummForSell.Size = new System.Drawing.Size(109, 13);
+            this.labelSummForSell.Size = new System.Drawing.Size(163, 20);
             this.labelSummForSell.TabIndex = 13;
             this.labelSummForSell.Text = "Сумма для продажи";
             // 
@@ -167,17 +180,19 @@
             // 
             this.labelBTC.AllowDrop = true;
             this.labelBTC.AutoSize = true;
-            this.labelBTC.Location = new System.Drawing.Point(241, 77);
+            this.labelBTC.Location = new System.Drawing.Point(362, 118);
+            this.labelBTC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelBTC.Name = "labelBTC";
-            this.labelBTC.Size = new System.Drawing.Size(28, 13);
+            this.labelBTC.Size = new System.Drawing.Size(40, 20);
             this.labelBTC.TabIndex = 14;
             this.labelBTC.Text = "BTC";
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(247, 33);
+            this.buttonAdd.Location = new System.Drawing.Point(366, 29);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(180, 71);
             this.buttonAdd.TabIndex = 15;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -186,35 +201,39 @@
             // labelCourceBTC
             // 
             this.labelCourceBTC.AutoSize = true;
-            this.labelCourceBTC.Location = new System.Drawing.Point(446, 182);
+            this.labelCourceBTC.Location = new System.Drawing.Point(724, 248);
+            this.labelCourceBTC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCourceBTC.Name = "labelCourceBTC";
-            this.labelCourceBTC.Size = new System.Drawing.Size(13, 13);
+            this.labelCourceBTC.Size = new System.Drawing.Size(18, 20);
             this.labelCourceBTC.TabIndex = 16;
             this.labelCourceBTC.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(429, 159);
+            this.label2.Location = new System.Drawing.Point(644, 220);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 13);
+            this.label2.Size = new System.Drawing.Size(184, 20);
             this.label2.TabIndex = 17;
             this.label2.Text = "Текущий курс биткоина";
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(349, 33);
+            this.buttonEdit.Location = new System.Drawing.Point(648, 29);
+            this.buttonEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(180, 71);
             this.buttonEdit.TabIndex = 18;
             this.buttonEdit.Text = "Edit";
             this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelCourceBTC);
@@ -234,6 +253,7 @@
             this.Controls.Add(this.textboxCourceForSell);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.comboBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

@@ -115,6 +115,7 @@ namespace WindowsFormsApp3
             clients.Add(client);
             stock.AddObserable(client);
             UpdateBinding();
+            ClearTextBoxes();
 
         }
 
@@ -135,6 +136,7 @@ namespace WindowsFormsApp3
                 textBoxName.Text = client.Login;
 
                 textBoxBTC.Text = client.BTC.ToString();
+                textBoxUSD.Text = client.USD.ToString();
                 textboxCourceForBuy.Text = client.CourceForBuy.ToString();
                 textboxCourceForSell.Text = client.CourceForSell.ToString();
                 textBoxSummForBuy.Text = client.SumForBuy.ToString();
@@ -144,7 +146,41 @@ namespace WindowsFormsApp3
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
             ShowClientInfo();
         }
+
+        void ClearTextBoxes()
+        {
+            foreach (Control item in Controls)
+            {
+                if (item is TextBox)
+                    item.Text = "";            }
+        }
+
+        private void buttonEdit_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex != -1)
+            {
+                Client client = comboBox1.SelectedItem as Client;
+
+                client.Login = textBoxName.Text;
+
+                client.BTC = Convert.ToDouble(textBoxBTC.Text);
+                client.USD = Convert.ToDouble(textBoxUSD.Text);
+                client.CourceForBuy = Convert.ToDouble(textboxCourceForBuy.Text);
+                client.CourceForSell = Convert.ToDouble(textboxCourceForSell.Text);
+                client.SumForBuy = Convert.ToDouble(textBoxSummForBuy.Text);
+                client.SumForSell = Convert.ToDouble(textBoxSummForSell.Text);
+
+            }
+
+            ClearTextBoxes();
+        }
+
     }
 }
+
+
+// как запретить ввод текста в комбобокс
+// как сделать так, чтобы текст не успевал менятся сам

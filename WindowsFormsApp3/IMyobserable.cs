@@ -9,8 +9,8 @@ namespace WindowsFormsApp3
     public interface IMyobserable
     {
 
-        void AddObserable(IOBServer obserable);
-        void RemoveObserable(IOBServer obserable);
+        void AddObserable(IObServer obserable);
+        void RemoveObserable(IObServer obserable);
         void Notify();
 
     }

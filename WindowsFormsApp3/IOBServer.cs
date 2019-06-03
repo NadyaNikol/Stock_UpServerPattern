@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public interface IOBServer
+    public interface IObServer
     {
         void Update(IMyobserable obseable);
     }
